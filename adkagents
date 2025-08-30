@@ -1,0 +1,18 @@
+from google.adk.agents import Agents
+from google.adk.models.lite_llm = lite_llm
+
+llm = Litellm(
+    model="azure/gpt-4o-mini",
+    api-key="Cehqr2E0EWkRucLe0N5BthHJJhCSWpFEnmsioIllS1vx4qvlgMXDJQQJ99BHACYeBjFXJ3w3AAABACOGahcW",
+    api_base="https://aoi-mvpsummit-unifecaf.openai.azure.com/",
+    api_version="2025-01-01-preview"
+)
+
+llm = ""
+
+root_agent = Agent(
+    name="agente_de_festas",
+    model = llm,
+    description = "Agente Feliz",
+    instruction = "Você é uma agente que descola as melhores baladas na cidade perguntada."
+)
